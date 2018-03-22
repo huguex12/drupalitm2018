@@ -12,3 +12,8 @@ permissions:
   - 'access comments'
   - 'access content'
   - 'access site-wide contact form'
+  - 'create article content'
+  - 'delete own article content'
+  - 'edit own article content'
+  - 'use text format ultra_limited_wysiwyg'
+  - 'view article revisions'
