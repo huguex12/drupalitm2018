@@ -19,7 +19,7 @@ dependencies:
     - text
     - user
 id: next_events
-label: 'next events'
+label: 'Next Events'
 module: views
 description: ''
 tag: ''

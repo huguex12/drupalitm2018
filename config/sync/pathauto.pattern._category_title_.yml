@@ -1,0 +1,22 @@
+uuid: cd315f21-4317-4a7d-867e-07cde44d8a8f
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: _category_title_
+label: Artículos
+type: 'canonical_entities:node'
+pattern: '[node:field_category][node:title]'
+selection_criteria:
+  feb64265-33b1-4762-b23d-dffca8c318e8:
+    id: node_type
+    bundles:
+      article: article
+    negate: false
+    context_mapping:
+      node: node
+    uuid: feb64265-33b1-4762-b23d-dffca8c318e8
+selection_logic: and
+weight: -5
+relationships: {  }
