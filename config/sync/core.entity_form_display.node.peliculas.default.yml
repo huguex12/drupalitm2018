@@ -1,80 +1,51 @@
-uuid: 7c534d82-8131-4116-9831-555283687cee
+uuid: bb4ed6a1-e175-4905-890e-3785d874d746
 langcode: en
 status: true
 dependencies:
   config:
-    - field.field.node.article.body
-    - field.field.node.article.comment
-    - field.field.node.article.field_category
-    - field.field.node.article.field_image
-    - field.field.node.article.field_metatag
-    - field.field.node.article.field_tags
-    - image.style.thumbnail
-    - node.type.article
+    - field.field.node.peliculas.body
+    - field.field.node.peliculas.field_actor
+    - node.type.peliculas
   module:
-    - comment
-    - image
-    - metatag
+    - inline_entity_form
     - path
     - text
-id: node.article.default
+id: node.peliculas.default
 targetEntityType: node
-bundle: article
+bundle: peliculas
 mode: default
 content:
   body:
     type: text_textarea_with_summary
-    weight: 2
-    region: content
+    weight: 121
     settings:
       rows: 9
       summary_rows: 3
       placeholder: ''
     third_party_settings: {  }
-  comment:
-    type: comment_default
-    weight: 6
     region: content
-    settings: {  }
-    third_party_settings: {  }
   created:
     type: datetime_timestamp
-    weight: 7
+    weight: 10
     region: content
     settings: {  }
     third_party_settings: {  }
-  field_category:
-    weight: 3
-    settings: {  }
-    third_party_settings: {  }
-    type: options_select
-    region: content
-  field_image:
-    type: image_image
-    weight: 1
-    region: content
+  field_actor:
+    weight: 122
     settings:
-      progress_indicator: throbber
-      preview_image_style: thumbnail
-    third_party_settings: {  }
-  field_metatag:
-    weight: 26
-    settings: {  }
-    third_party_settings: {  }
-    type: metatag_firehose
-    region: content
-  field_tags:
-    type: entity_reference_autocomplete
-    weight: 4
-    region: content
-    settings:
+      form_mode: default
+      override_labels: true
+      label_singular: Actor
+      label_plural: Actores
+      allow_new: true
+      allow_existing: true
       match_operator: CONTAINS
-      size: 60
-      placeholder: ''
     third_party_settings: {  }
+    type: inline_entity_form_complex
+    region: content
   path:
     type: path
-    weight: 10
+    weight: 30
     region: content
     settings: {  }
     third_party_settings: {  }
@@ -82,26 +53,26 @@ content:
     type: boolean_checkbox
     settings:
       display_label: true
-    weight: 8
+    weight: 15
     region: content
     third_party_settings: {  }
   status:
     type: boolean_checkbox
     settings:
       display_label: true
-    weight: 11
+    weight: 120
     region: content
     third_party_settings: {  }
   sticky:
     type: boolean_checkbox
     settings:
       display_label: true
-    weight: 9
+    weight: 16
     region: content
     third_party_settings: {  }
   title:
     type: string_textfield
-    weight: 0
+    weight: -5
     region: content
     settings:
       size: 60

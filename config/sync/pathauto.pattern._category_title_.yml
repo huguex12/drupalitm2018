@@ -7,16 +7,16 @@ dependencies:
 id: _category_title_
 label: Artículos
 type: 'canonical_entities:node'
-pattern: '[node:field_category][node:title]'
+pattern: '[node:field_category]/[node:title]'
 selection_criteria:
-  feb64265-33b1-4762-b23d-dffca8c318e8:
+  ba0779db-8c0b-408b-9eca-20071bc0aef8:
     id: node_type
     bundles:
       article: article
     negate: false
     context_mapping:
       node: node
-    uuid: feb64265-33b1-4762-b23d-dffca8c318e8
+    uuid: ba0779db-8c0b-408b-9eca-20071bc0aef8
 selection_logic: and
 weight: -5
 relationships: {  }

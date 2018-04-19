@@ -31,11 +31,19 @@ module:
   history: 0
   image: 0
   image_captcha: 0
+  inline_entity_form: 0
+  layout_discovery: 0
   link: 0
   menu_ui: 0
+  metatag: 0
+  metatag_facebook: 0
+  metatag_open_graph: 0
   node: 0
   options: 0
   page_cache: 0
+  page_manager: 0
+  page_manager_ui: 0
+  panels: 0
   path: 0
   quickedit: 0
   rdf: 0

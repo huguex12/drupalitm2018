@@ -1,0 +1,35 @@
+uuid: f538bbb4-fc48-4126-8d6e-c6332787adde
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.peliculas.body
+    - field.field.node.peliculas.field_actor
+    - node.type.peliculas
+  module:
+    - text
+    - user
+id: node.peliculas.default
+targetEntityType: node
+bundle: peliculas
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_actor:
+    weight: 102
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+  links:
+    weight: 100
+    region: content
+hidden: {  }

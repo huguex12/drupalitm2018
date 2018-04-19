@@ -1,0 +1,22 @@
+uuid: b6e88357-6b01-4a04-9cd4-613f5c67f17f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.actores
+  module:
+    - text
+id: node.actores.body
+field_name: body
+entity_type: node
+bundle: actores
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+field_type: text_with_summary

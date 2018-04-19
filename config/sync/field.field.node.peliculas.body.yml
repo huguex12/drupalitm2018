@@ -1,0 +1,22 @@
+uuid: 60647216-3177-4270-8154-1b4b10387200
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.peliculas
+  module:
+    - text
+id: node.peliculas.body
+field_name: body
+entity_type: node
+bundle: peliculas
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+field_type: text_with_summary

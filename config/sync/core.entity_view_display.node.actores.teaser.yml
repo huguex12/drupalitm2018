@@ -1,0 +1,28 @@
+uuid: 1f5ef11f-180c-4a09-b561-4c2c5d673024
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.actores.body
+    - node.type.actores
+  module:
+    - text
+    - user
+id: node.actores.teaser
+targetEntityType: node
+bundle: actores
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    region: content
+hidden: {  }

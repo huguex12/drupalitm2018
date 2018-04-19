@@ -154,17 +154,17 @@ display:
           id: created
           table: node_field_data
           field: created
-          order: DESC
-          entity_type: node
-          entity_field: created
-          plugin_id: date
           relationship: none
           group_type: group
           admin_label: ''
+          order: ASC
           exposed: false
           expose:
             label: ''
           granularity: second
+          entity_type: node
+          entity_field: created
+          plugin_id: date
       header:
         result:
           id: result
@@ -186,7 +186,7 @@ display:
           relationship: none
           group_type: group
           admin_label: 'Content queue'
-          required: false
+          required: true
           limit_queue: featured_articles
           entity_type: node
           plugin_id: entity_queue

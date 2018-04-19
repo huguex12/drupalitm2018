@@ -1,0 +1,26 @@
+uuid: 417039d9-f98b-4dae-969a-0c949f596ace
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.actores.body
+    - node.type.actores
+  module:
+    - text
+    - user
+id: node.actores.default
+targetEntityType: node
+bundle: actores
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    region: content
+hidden: {  }
