@@ -1,0 +1,18 @@
+uuid: b63bc956-f204-4c8e-98a1-afd033dca722
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+name: 'Colorbox Test'
+type: colorbox
+description: 'This is a Colorbox Test'
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: true

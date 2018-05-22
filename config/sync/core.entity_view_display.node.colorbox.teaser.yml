@@ -1,0 +1,41 @@
+uuid: 47610c28-7f74-4636-a5b3-3b2096efb5df
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.colorbox.body
+    - field.field.node.colorbox.field_image
+    - node.type.colorbox
+  module:
+    - image
+    - text
+    - user
+id: node.colorbox.teaser
+targetEntityType: node
+bundle: colorbox
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 1
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  field_image:
+    type: image
+    weight: 2
+    region: content
+    label: above
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+  links:
+    weight: 0
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden: {  }

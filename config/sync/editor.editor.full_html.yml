@@ -1,12 +1,12 @@
-uuid: 2c1b9e8d-4f20-48ca-b186-a12bf52aff6f
+uuid: 04759b7f-a0dd-4809-bb8c-60c84e12c8a4
 langcode: en
 status: true
 dependencies:
   config:
-    - filter.format.editor_wysiwyg
+    - filter.format.full_html
   module:
     - ckeditor
-format: editor_wysiwyg
+format: full_html
 editor: ckeditor
 settings:
   toolbar:
@@ -16,15 +16,9 @@ settings:
           name: Formatting
           items:
             - Bold
-            - Underline
             - Italic
             - Strike
-        -
-          name: Align
-          items:
-            - JustifyLeft
-            - JustifyRight
-            - '-'
+            - Underline
         -
           name: Links
           items:
@@ -40,13 +34,16 @@ settings:
           items:
             - Blockquote
             - DrupalImage
+            - Table
+        -
+          name: 'Block Formatting'
+          items:
+            - Format
         -
           name: Tools
           items:
+            - ShowBlocks
             - Source
-            - Undo
-            - Redo
-            - JustifyBlock
         -
           name: Colorbox
           items:

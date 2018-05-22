@@ -9,6 +9,9 @@ module:
   captcha: 0
   ckeditor: 0
   color: 0
+  colorbox: 0
+  colorbox_inline: 0
+  colorbox_load: 0
   comment: 0
   config: 0
   contact: 0
@@ -20,6 +23,7 @@ module:
   dblog: 0
   devel: 0
   devel_generate: 0
+  drupal_itm_demos: 0
   dynamic_page_cache: 0
   editor: 0
   entityqueue: 0
@@ -31,13 +35,16 @@ module:
   history: 0
   image: 0
   image_captcha: 0
+  imce: 0
   inline_entity_form: 0
+  kint: 0
   layout_discovery: 0
   link: 0
   menu_ui: 0
   metatag: 0
   metatag_facebook: 0
   metatag_open_graph: 0
+  ng_lightbox: 0
   node: 0
   options: 0
   page_cache: 0

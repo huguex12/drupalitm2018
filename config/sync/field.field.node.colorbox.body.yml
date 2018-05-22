@@ -1,0 +1,22 @@
+uuid: 606aa889-9119-4fbe-bde2-662a9ac4a0c0
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.colorbox
+  module:
+    - text
+id: node.colorbox.body
+field_name: body
+entity_type: node
+bundle: colorbox
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+field_type: text_with_summary

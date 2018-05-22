@@ -1,0 +1,20 @@
+uuid: 1ca1b73d-8423-44d9-8fe9-e1da5c41480f
+langcode: en
+status: true
+dependencies:
+  module:
+    - drupal_itm_demos
+  theme:
+    - bartik
+id: informationblock
+theme: bartik
+region: featured_top
+weight: -7
+provider: null
+plugin: information_block
+settings:
+  id: information_block
+  label: 'Information block'
+  provider: drupal_itm_demos
+  label_display: visible
+visibility: {  }
