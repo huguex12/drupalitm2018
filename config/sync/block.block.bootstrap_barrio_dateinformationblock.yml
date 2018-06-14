@@ -1,0 +1,20 @@
+uuid: 6d9327d6-468d-487f-bb72-9b87014c8c5a
+langcode: en
+status: true
+dependencies:
+  module:
+    - itm_lab3
+  theme:
+    - bootstrap_barrio
+id: bootstrap_barrio_dateinformationblock
+theme: bootstrap_barrio
+region: featured_top
+weight: -7
+provider: null
+plugin: date_information_block
+settings:
+  id: date_information_block
+  label: 'Date information block'
+  provider: itm_lab3
+  label_display: visible
+visibility: {  }

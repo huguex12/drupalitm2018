@@ -9,7 +9,7 @@ dependencies:
 id: informationblock
 theme: bartik
 region: featured_top
-weight: -7
+weight: -8
 provider: null
 plugin: information_block
 settings:

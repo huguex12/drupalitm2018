@@ -1,0 +1,5 @@
+name: 'itm_lab3'
+type: module
+description: 'Some demos for Drupal ITM 2018'
+core: 8.x
+package: 'Custom'

@@ -1,0 +1,20 @@
+uuid: 0638d8b7-d29e-42f7-834b-2abaeeb0f146
+langcode: en
+status: true
+dependencies:
+  module:
+    - itm_lab3
+  theme:
+    - bartik
+id: dateinformationblock
+theme: bartik
+region: featured_top
+weight: -7
+provider: null
+plugin: date_information_block
+settings:
+  id: date_information_block
+  label: 'Date information block'
+  provider: itm_lab3
+  label_display: visible
+visibility: {  }

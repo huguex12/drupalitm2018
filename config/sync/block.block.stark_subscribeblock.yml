@@ -1,0 +1,20 @@
+uuid: 8815a9e5-8b34-4e2b-b4bc-dee18ed52975
+langcode: en
+status: true
+dependencies:
+  module:
+    - drupal_itm_demos
+  theme:
+    - stark
+id: stark_subscribeblock
+theme: stark
+region: sidebar_first
+weight: 0
+provider: null
+plugin: subscribe_block
+settings:
+  id: subscribe_block
+  label: 'Subscribe block'
+  provider: drupal_itm_demos
+  label_display: '0'
+visibility: {  }

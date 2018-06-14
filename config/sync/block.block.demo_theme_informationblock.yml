@@ -1,0 +1,20 @@
+uuid: aa751eaf-9832-4d87-972b-2baf4bbfd667
+langcode: en
+status: true
+dependencies:
+  module:
+    - drupal_itm_demos
+  theme:
+    - demo_theme
+id: demo_theme_informationblock
+theme: demo_theme
+region: sidebar_first
+weight: -7
+provider: null
+plugin: information_block
+settings:
+  id: information_block
+  label: 'Information block'
+  provider: drupal_itm_demos
+  label_display: visible
+visibility: {  }

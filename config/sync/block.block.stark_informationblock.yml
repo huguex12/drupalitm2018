@@ -1,0 +1,20 @@
+uuid: 62a7b37b-1358-417c-8bd6-65f1002b94cb
+langcode: en
+status: true
+dependencies:
+  module:
+    - drupal_itm_demos
+  theme:
+    - stark
+id: stark_informationblock
+theme: stark
+region: sidebar_first
+weight: -7
+provider: null
+plugin: information_block
+settings:
+  id: information_block
+  label: 'Information block'
+  provider: drupal_itm_demos
+  label_display: visible
+visibility: {  }
